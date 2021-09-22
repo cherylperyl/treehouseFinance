@@ -3,4 +3,4 @@
 
 # 1 - find set of manger ids
 
-# 2 - for each employee
+# 2 - for each employee, if not in set of mIDs, add salary to total, then get average
