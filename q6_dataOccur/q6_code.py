@@ -58,13 +58,6 @@ def checkD(date):
     try:
         datetime_object = datetime.datetime.strptime(month, "%b")
         month = datetime_object.month
+        return checkNumDate(year,month,day)
     except ValueError:
-        isValidDate = False
-
-    isValidDate = True
-    try:
-        datetime.datetime(int(year), int(month), int(day))
-    except ValueError:
-        isValidDate = False
-    
-    return isValidDate
+        return False
