@@ -27,9 +27,3 @@ def  computePascalLayer(n):
         layer.append(computePascalNum(n,i))
     
     return layer
-
-# # test
-# print(computePascalLayer(1))
-# print(computePascalLayer(2))
-# print(computePascalLayer(3))
-# print(computePascalLayer(4))
