@@ -7,11 +7,3 @@ def exists():
 
     # check if given input is defined globally
     return v in globals()
-
-# #check
-# print(exists())
-# v = 0
-# print(exists())
-
-# False returned - variable not defined
-# True returned - variable defined
