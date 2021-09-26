@@ -37,5 +37,3 @@ def higherSalaryEmployees(filename):
             names.append(info[0])
 
     return names
-
-# print(higherSalaryEmployees("sampleData.txt"))
